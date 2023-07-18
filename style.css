@@ -1,15 +1,24 @@
 /* style for all */
 body{
+    padding-left: 240px;
+    padding-right: 240px; 
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    
 
+}
+.text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 *{
     margin: 0;
 }
 /* header styles */
 header{
-    padding: 40px 240px ;
+    padding: 40px ;
    
 }
 /* navbar styles */
@@ -21,7 +30,6 @@ header{
     align-items: center;
     text-align: center;
     font-size: 2.8rem;
-    /* padding-bottom: 20px; */
 }
 .logo-image{
     width: 80%;
@@ -47,9 +55,48 @@ nav li{
     display: flex;
     gap: 36px;
 
-    /* padding: 37px; */
 }
 .icons{
     display: flex;
     gap: 16px;
+}
+/* banner style */
+.banner{
+    visibility: hidden;
+    display: flex;
+}
+.banner-image{
+    width: 711px;
+    /* padding-left: 970px;  */
+    padding-right: 240px;
+}
+/* main styles */
+
+/* online games section styles */
+.online-games-cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+figcaption{
+    width: 342px;
+    margin-top: 20px;
+}
+.online-games-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.online-games-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.card img{
+    width: 342px;
+    height: 400px;
 }
