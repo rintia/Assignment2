@@ -1,7 +1,5 @@
 /* style for all */
 body{
-    padding-left: 240px;
-    padding-right: 240px; 
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
     
@@ -13,12 +11,9 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-*{
-    margin: 0;
-}
 /* header styles */
 header{
-    padding: 40px ;
+    padding: 40px 240px;
    
 }
 /* navbar styles */
@@ -60,23 +55,16 @@ nav li{
     display: flex;
     gap: 16px;
 }
-/* banner style */
-.banner{
-    visibility: hidden;
-    display: flex;
-}
-.banner-image{
-    width: 711px;
-    /* padding-left: 970px;  */
-    padding-right: 240px;
-}
 /* main styles */
 
 /* online games section styles */
+
 .online-games-cards{
     display: flex;
     gap: 24px;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 figcaption{
     width: 342px;
@@ -97,6 +85,37 @@ figcaption{
     margin-bottom: 20px;
 }
 .card img{
-    width: 342px;
-    height: 400px;
+    width: 100%;
 }
+/* play instantly section styles */
+.play-instantly-container{
+    display: flex; 
+    margin-left: 500px;
+    margin-right: 240px;
+    margin-top: 50px;
+    
+    
+}
+
+.play-instanty-title{
+    text-align: right;  
+    font-size: 3.2rem;
+    font-weight: 700;
+    width: 400px; 
+}
+
+.play-instantly-description{
+    width: 353px;
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.play-instantly-images{
+    width: 100%;
+}
+  .cat{
+    position: relative;
+    top: 80px;
+    left: 200px;
+}  
