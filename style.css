@@ -177,13 +177,14 @@ figcaption{
     font-weight: 400;
 }
 .cowboy{
-    width: 100%;
+    width: 39.625rem;
 }
 .cat{
     position: relative;
-    bottom: 12.5rem;
+    top: 12.5rem;
     right: 15.625rem;
-    /* width: 50%; */
+    width: 20rem;
+    
 }  
 /* icons section styles */
 .icons{
