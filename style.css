@@ -81,9 +81,9 @@ nav li{
     font-size: 1.2rem;
     font-weight: 500;
 }
- .banner-image{
+ /* .banner-image{
     width: 60%;
-} 
+}  */
 .btn-primary{
     border: none;
     border-radius: 3rem;
@@ -183,7 +183,7 @@ figcaption{
     position: relative;
     bottom: 12.5rem;
     right: 15.625rem;
-    width: 50%;
+    /* width: 50%; */
 }  
 /* icons section styles */
 .icons{
@@ -288,12 +288,24 @@ footer{
         margin-left: 0px;
         padding-left: 60px;
     }
-    .play-instantly-container, .icons-part{
-        margin: 0;
+    .play-instantly-container, .icons-part, .banner{
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 10px;
     }
      footer{
         padding:20px 40px;
     } 
-
+    .banner-image{
+        width: 400px;
+    }
+    .cowboy{
+        width: 80%;
+    }
+    .cat{
+        position: relative;
+        bottom: 100px;
+        left: 220px;
+        width: 30%;
+    }
 }
