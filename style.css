@@ -34,7 +34,7 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
-    gap: 32px;
+    gap: 20px;
 }
 nav li{
     color: #3C354F;
@@ -59,6 +59,7 @@ nav li{
     align-items: center;
     background-image: url("/images/Group\ 14.png");
     background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 240px;
     padding-right: 240px;
     margin-bottom: 180px;
@@ -79,6 +80,9 @@ nav li{
     color: #534C64;
     font-size: 1.2rem;
     font-weight: 500;
+}
+.responsive{
+    width: 60%;
 }
 .btn-primary{
     border: none;
@@ -122,9 +126,27 @@ figcaption{
     font-weight: 400;
     margin-bottom: 40px;
 }
-.card img{
-    width: 100%;
+ .hover-icon{
+    position: relative;
+    bottom: 12.5rem;
+    left: 11.25rem;
+    display: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #F948B2;
 }
+.hover-title{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.card:hover img{
+    cursor: pointer;
+    filter: brightness(30%);
+}
+.card:hover .hover-icon{
+    display: block;
+} 
+
 /* play instantly section styles */
 .play-instantly{
     margin-top: 120px;
@@ -250,4 +272,10 @@ footer{
     justify-content: center;
     gap: 40px;
     margin-top: 66px;
+}
+@media screen and (max-width:576px) {
+    nav, .banner, .online-games-cards,.play-instantly-container, .icon-row1, .icon-row2,
+    .footer-sections-container, .footer-terms-section{
+        flex-direction: column;
+    }
 }
