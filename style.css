@@ -315,6 +315,13 @@ footer{
         padding-left: 30px;
         padding-right: 30px;
     }
+    .card > img {
+        width: 350px;
+    }
+    .card > figcaption {
+        width: 300px;
+        margin-bottom: 20px;
+    }
     .play-instantly-container, .icons-part, .banner{
         margin-left: 0px;
         margin-right: 0px;
